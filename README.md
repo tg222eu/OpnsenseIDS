@@ -58,3 +58,4 @@ Hit enable and then save
 <br><br>
 To check if everything went correct you can add a widget in dashboard and check for status at Lobby -> Dashboard -> Add widget -> Select "Telemetry status"
 
+Now that the IDS is functioning the alerts will ge generated at Service -> Intrusion Detection -> Administration -> Alerts
