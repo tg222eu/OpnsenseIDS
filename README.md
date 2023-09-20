@@ -9,7 +9,7 @@ Hardware CRC is checked disabled by default and should remain disabled as the te
 [technologies ](https://docs.opnsense.org/manual/interfaces_settings.html)https://docs.opnsense.org/manual/interfaces_settings.html
 
 # Setup
-
+![alt text](https://github.com/tg222eu/OpnsenseSuricata/blob/main/Pictures/ServiceIDS.JPG)<br>
 <h4>Enable built in services</h4>
 
 Go to Services -> Intruision Detection -> Administration <br>
@@ -29,6 +29,7 @@ Go to Services -> Intruision Detection -> Administration <br>
 Order a free ET Pro Telementry edition in link below to get the token. Will be used later on. The order might take some time to process, in my case around 10 min
 https://shop.opnsense.com/
 
+![alt text](https://github.com/tg222eu/OpnsenseSuricata/blob/main/Pictures/os-etpro-telementry.JPG)<br>
 - The documentation says OPNsense 19.1 or higher is required for ET PRO Telementry, but it required the latest firmware update otherwise it wont install the plugin
     - Go to System ‣ Firmware ‣ Updates
     - press “Check for updates” in the upper right corner.
@@ -42,6 +43,7 @@ https://shop.opnsense.com/
     - A popup for the update task appears, enable it using the checkbox on top, and click “save changes”
 <br><br>
 
+![alt text](https://github.com/tg222eu/OpnsenseSuricata/blob/main/Pictures/downloadruleset.JPG)<br>
 - Register token and download ruleset
   - Go to Services ‣ Intrusion Detection ‣ Administration
   - Click on the “Download” tab
